@@ -1,0 +1,38 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC',
+		'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei',
+		sans-serif;
+}
+
+.app-layout {
+	overflow-x: hidden;
+	min-width: 1100px;
+	min-height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #333;
+	padding: 0;
+}
+
+.border-radius-50 {
+	border-radius: 50px;
+}
+
+.error-msg {
+	color: #e83f28;
+	font-size: 14px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.date-picker-box input.mx-input {
+	border-color: #ced4da;
+	box-shadow: none;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+}
